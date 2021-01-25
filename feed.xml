@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://blog.dileepkushwaha.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.dileepkushwaha.com/" rel="alternate" type="text/html" /><updated>2021-01-25T20:00:46+05:30</updated><id>https://blog.dileepkushwaha.com/feed.xml</id><title type="html">Dileep Kushwaha</title><subtitle>A personal blog about technical things I find useful. Also, random ramblings and rants...</subtitle><entry><title type="html">The second lorem ipsum</title><link href="https://blog.dileepkushwaha.com/2020/06/09/lorem-ipsum-2-new.html" rel="alternate" type="text/html" title="The second lorem ipsum" /><published>2020-06-09T00:00:00+05:30</published><updated>2020-06-09T00:00:00+05:30</updated><id>https://blog.dileepkushwaha.com/2020/06/09/lorem-ipsum-2-new</id><content type="html" xml:base="https://blog.dileepkushwaha.com/2020/06/09/lorem-ipsum-2-new.html">&lt;p&gt;Lorem is not ipsum&lt;/p&gt;</content><author><name></name></author><category term="lorem" /><category term="ipsum" /><summary type="html">Lorem is not ipsum</summary></entry><entry><title type="html">Lorem Ipsum :sunglasses:</title><link href="https://blog.dileepkushwaha.com/2020/06/06/lorem-ipsum.html" rel="alternate" type="text/html" title="Lorem Ipsum :sunglasses:" /><published>2020-06-06T00:00:00+05:30</published><updated>2020-06-06T00:00:00+05:30</updated><id>https://blog.dileepkushwaha.com/2020/06/06/lorem-ipsum</id><content type="html" xml:base="https://blog.dileepkushwaha.com/2020/06/06/lorem-ipsum.html">&lt;p&gt;Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow’s nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.&lt;/p&gt;
+
+&lt;p&gt;Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.&lt;/p&gt;
+
+&lt;p&gt;Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow’s nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.&lt;/p&gt;</content><author><name></name></author><category term="lorem-ipsum" /><summary type="html">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow’s nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.</summary></entry><entry><title type="html">My blogging workflow - no CI :sunglasses:</title><link href="https://blog.dileepkushwaha.com/2020/05/05/my-blogging-workflow-no-ci.html" rel="alternate" type="text/html" title="My blogging workflow - no CI :sunglasses:" /><published>2020-05-05T00:00:00+05:30</published><updated>2020-05-05T00:00:00+05:30</updated><id>https://blog.dileepkushwaha.com/2020/05/05/my-blogging-workflow-no-ci</id><content type="html" xml:base="https://blog.dileepkushwaha.com/2020/05/05/my-blogging-workflow-no-ci.html">&lt;p&gt;I have created a new file called “2020-05-05-my-bloggin-workflow-no-ci.md” and added some content into it. The file is opened in visual studio code along with a markdown preview extention panel on the side.&lt;/p&gt;
+
+&lt;p&gt;I need to find a way to keep emoji snippest at hand. But it is of low priorty. The snippet is avaialable at 
+&lt;a href=&quot;https://gist.github.com/rxaviers/7360908&quot;&gt;Markdown Emoji Gist&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Next, i’ll be testing the blog post on mu local machine then bush the latest build onto github.&lt;/p&gt;
+
+&lt;p&gt;It will be interesting to see how any CI-CD tool will change the workflow and ease my life.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="github" /><summary type="html">I have created a new file called “2020-05-05-my-bloggin-workflow-no-ci.md” and added some content into it. The file is opened in visual studio code along with a markdown preview extention panel on the side.</summary></entry><entry><title type="html">A blog post straight from my terminal :alien:</title><link href="https://blog.dileepkushwaha.com/2020/05/03/a-blog-post-direct-from-my-terminal.html" rel="alternate" type="text/html" title="A blog post straight from my terminal :alien:" /><published>2020-05-03T00:00:00+05:30</published><updated>2020-05-03T00:00:00+05:30</updated><id>https://blog.dileepkushwaha.com/2020/05/03/a-blog-post-direct-from-my-terminal</id><content type="html" xml:base="https://blog.dileepkushwaha.com/2020/05/03/a-blog-post-direct-from-my-terminal.html">&lt;p&gt;Finally, i have found the perfect theme for my blog. I have long procrastinated for starting blogging sharing what i’m learning everyday. I tested many blogging platform including wp and ghost. none of them suited my needs. I tested this configuration of jekyll and github pages as it is free. Plus the workflow suits my daily routine of working with terminal.&lt;/p&gt;
+
+&lt;p&gt;Since its my first post, i’ll be testing following content type here&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;emojis :satisfied:&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;images &lt;img src=&quot;https://picsum.photos/200&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;audio
+    &lt;audio controls=&quot;&quot; onclick=&quot;&quot;&gt;
+         &lt;source src=&quot;/assets/Nyan Cat.wav&quot; type=&quot;audio/wav&quot; /&gt;
+   &lt;/audio&gt;
+  &lt;/li&gt;
+  &lt;li&gt;video
+    &lt;video preload=&quot;auto&quot; src=&quot;https://test-videos.co.uk/vids/jellyfish/mp4/h264/1080/Jellyfish_1080_10s_1MB.mp4&quot; type=&quot;video/mp4&quot; autoplay=&quot;&quot; controls=&quot;&quot;&gt;&lt;/video&gt;
+  &lt;/li&gt;
+  &lt;li&gt;gif
+&lt;img src=&quot;https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif&quot; alt=&quot;cat&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;url &lt;a href=&quot;https://www.google.com&quot;&gt;I’m an inline-style link&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;code snippets
+    &lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.('Tom')&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;twitter post
+    &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Pretty much&lt;/p&gt;&amp;mdash; Elon Musk (@elonmusk) &lt;a href=&quot;https://twitter.com/elonmusk/status/1256851799002120192?ref_src=twsrc%5Etfw&quot;&gt;May 3, 2020&lt;/a&gt;&lt;/blockquote&gt;
+    &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;mastodon post&lt;/p&gt;
+
+    &lt;iframe src=&quot;https://fosstodon.org/@dileepkushwaha/104609400993978563/embed&quot; class=&quot;mastodon-embed&quot; style=&quot;max-width: 100%; border: 0&quot; width=&quot;400&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;
+    &lt;script src=&quot;https://fosstodon.org/embed.js&quot; async=&quot;async&quot;&gt;&lt;/script&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Quotes
+    &lt;blockquote&gt;
+      &lt;p&gt;“This is a quote which should be followed”
+Also I think this sentence is quite long.
+more quote text to come&lt;/p&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Chris Wayne&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="welcome" /><category term="introduction" /><category term="jekyll" /><category term="github" /><summary type="html">Finally, i have found the perfect theme for my blog. I have long procrastinated for starting blogging sharing what i’m learning everyday. I tested many blogging platform including wp and ghost. none of them suited my needs. I tested this configuration of jekyll and github pages as it is free. Plus the workflow suits my daily routine of working with terminal.</summary></entry></feed>
