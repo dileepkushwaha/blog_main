@@ -3,21 +3,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Starting with # 100 Days To Offload | Dileep Kushwaha</title>
+<title>Added a static photo album | Dileep Kushwaha</title>
 <meta name="generator" content="Jekyll v4.0.1" />
-<meta property="og:title" content="Starting with # 100 Days To Offload" />
+<meta property="og:title" content="Added a static photo album" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Based on Kev Quirk’s idea 100daystooffload.com" />
-<meta property="og:description" content="Based on Kev Quirk’s idea 100daystooffload.com" />
-<link rel="canonical" href="https://blog.dileepkushwaha.com/2021/07/19/Giving-a-good-thought-on-100-Days-To-Offload.html" />
-<meta property="og:url" content="https://blog.dileepkushwaha.com/2021/07/19/Giving-a-good-thought-on-100-Days-To-Offload.html" />
+<meta name="description" content="Day 2, 100DaysToOffload" />
+<meta property="og:description" content="Day 2, 100DaysToOffload" />
+<link rel="canonical" href="https://blog.dileepkushwaha.com/2021/07/20/Added-a-static-photo-album.html" />
+<meta property="og:url" content="https://blog.dileepkushwaha.com/2021/07/20/Added-a-static-photo-album.html" />
 <meta property="og:site_name" content="Dileep Kushwaha" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-07-19T09:22:00+05:30" />
+<meta property="article:published_time" content="2021-07-20T22:58:00+05:30" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Starting with # 100 Days To Offload" />
+<meta property="twitter:title" content="Added a static photo album" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","url":"https://blog.dileepkushwaha.com/2021/07/19/Giving-a-good-thought-on-100-Days-To-Offload.html","headline":"Starting with # 100 Days To Offload","dateModified":"2021-07-19T09:22:00+05:30","datePublished":"2021-07-19T09:22:00+05:30","mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.dileepkushwaha.com/2021/07/19/Giving-a-good-thought-on-100-Days-To-Offload.html"},"description":"Based on Kev Quirk’s idea 100daystooffload.com","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","url":"https://blog.dileepkushwaha.com/2021/07/20/Added-a-static-photo-album.html","headline":"Added a static photo album","dateModified":"2021-07-20T22:58:00+05:30","datePublished":"2021-07-20T22:58:00+05:30","mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.dileepkushwaha.com/2021/07/20/Added-a-static-photo-album.html"},"description":"Day 2, 100DaysToOffload","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="icon" type="image/ico" href="/assets/favicon.ico" /><link type="application/atom+xml" rel="alternate" href="https://blog.dileepkushwaha.com/feed.xml" title="Dileep Kushwaha" />
@@ -197,7 +197,7 @@ A personal blog about technical things I find useful. Also, random ramblings and
 
 
 <div class="post">
-  <h1 class="post-title">Starting with # 100 Days To Offload</h1>
+  <h1 class="post-title">Added a static photo album</h1>
   
   <div class="post-tags">
       
@@ -205,13 +205,25 @@ A personal blog about technical things I find useful. Also, random ramblings and
       
   </div>
   
-  <div class="post-date">Published on 19 Jul 2021</div>
+  <div class="post-date">Published on 20 Jul 2021</div>
   
-  <div class="post-description">Based on Kev Quirk's idea 100daystooffload.com</div>
+  <div class="post-description">Day 2, 100DaysToOffload</div>
   
-  <p>I have made some minor changes on this blog. Despite getting things ready, i did not understand what will be the best content for my blog. Its not that the topics are not clear. I had been procrastinating for the perfect blog posts. I think writing 100 days should benefit both my reading and learning skills. I will try to adapt with the content as i keep on posting.</p>
+  <p>Yesterday, i had made some minor changes in the <a href="dileepkushwaha.com">microblog</a> and <a href="blog.dileepkushwaha.com">blog</a>. Today, my <a href="photos.dileepkushwaha.com">photo album</a> is also went live. It is a static website too. All these three websites are now hosted on netlify.</p>
 
-<p><img src="https://media.giphy.com/media/l2JedTTnDTPXSmPYs/giphy.gif" alt=""></p>
+<p>I struggled with google analytics not working despite the code present in the webpage. The reason was, i did ot build the jekyll site using production settings.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">JEKYLL_ENV</span><span class="o">=</span>production bundle <span class="nb">exec </span>jekyll build
+</code></pre></div></div>
+
+<p>In order to add, watermark in the pictures, i used ImageMagick, composite commands. A bash script recursively adds the signature watermark along with any caption and compiles a static HTML site.</p>
+
+<p>I also wrote a tiny shell script to generate meme. Right now memes that require the text to be at the top and or at the bottom work with the script. Will add more features in future.</p>
+
+<p>I’m yet to improve the blog writing experience. Currently, i draft a blog in obsidian than manually copy it into working copy of the blog.</p>
+
+<p>Here is a meme i generated today</p>
+
+<p><img src="/assets/meme3.jpg" alt=""></p>
 
 </div>
 
@@ -225,8 +237,8 @@ A personal blog about technical things I find useful. Also, random ramblings and
     
       <li>
         <h3>
-          <a href="/2021/07/20/Added-a-static-photo-album.html">
-            Added a static photo album
+          <a href="/2021/07/19/Giving-a-good-thought-on-100-Days-To-Offload.html">
+            Starting with # 100 Days To Offload
           </a>
         </h3>
       </li>
