@@ -3,21 +3,23 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>The second lorem ipsum | Dileep Kushwaha</title>
+<title>Quote on geo-pattern tile using ImageMagick | Dileep Kushwaha</title>
 <meta name="generator" content="Jekyll v4.0.1" />
-<meta property="og:title" content="The second lorem ipsum" />
+<meta property="og:title" content="Quote on geo-pattern tile using ImageMagick" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="no lorem but only ipsum" />
-<meta property="og:description" content="no lorem but only ipsum" />
-<link rel="canonical" href="http://localhost:4000/2020/06/09/lorem-ipsum-2-new.html" />
-<meta property="og:url" content="http://localhost:4000/2020/06/09/lorem-ipsum-2-new.html" />
+<meta name="description" content="CLI utility to make quote image generator" />
+<meta property="og:description" content="CLI utility to make quote image generator" />
+<link rel="canonical" href="http://localhost:4000/2021/07/21/Quote-on-geopattern-tile-using-Imagemagick.html" />
+<meta property="og:url" content="http://localhost:4000/2021/07/21/Quote-on-geopattern-tile-using-Imagemagick.html" />
 <meta property="og:site_name" content="Dileep Kushwaha" />
+<meta property="og:image" content="http://localhost:4000/assets/test2.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-06-09T00:00:00+05:30" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="The second lorem ipsum" />
+<meta property="article:published_time" content="2021-07-21T22:21:00+05:30" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/assets/test2.png" />
+<meta property="twitter:title" content="Quote on geo-pattern tile using ImageMagick" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","url":"http://localhost:4000/2020/06/09/lorem-ipsum-2-new.html","headline":"The second lorem ipsum","dateModified":"2020-06-09T00:00:00+05:30","datePublished":"2020-06-09T00:00:00+05:30","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2020/06/09/lorem-ipsum-2-new.html"},"description":"no lorem but only ipsum","@context":"https://schema.org"}</script>
+{"image":"http://localhost:4000/assets/test2.png","@type":"BlogPosting","url":"http://localhost:4000/2021/07/21/Quote-on-geopattern-tile-using-Imagemagick.html","headline":"Quote on geo-pattern tile using ImageMagick","dateModified":"2021-07-21T22:21:00+05:30","datePublished":"2021-07-21T22:21:00+05:30","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2021/07/21/Quote-on-geopattern-tile-using-Imagemagick.html"},"description":"CLI utility to make quote image generator","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="icon" type="image/ico" href="/assets/favicon.ico" /><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Dileep Kushwaha" /></head>
@@ -186,21 +188,31 @@ A personal blog about technical things I find useful. Also, random ramblings and
 
 
 <div class="post">
-  <h1 class="post-title">The second lorem ipsum</h1>
+  <h1 class="post-title">Quote on geo-pattern tile using ImageMagick</h1>
   
   <div class="post-tags">
       
-      <a class="tag" href="/tag/lorem/">lorem</a>
-      
-      <a class="tag" href="/tag/ipsum/">ipsum</a>
+      <a class="tag" href="/tag/100DaystoOffload/">100DaystoOffload</a>
       
   </div>
   
-  <div class="post-date">Published on 09 Jun 2020</div>
+  <div class="post-date">Published on 21 Jul 2021</div>
   
-  <div class="post-description">no lorem but only ipsum</div>
+  <div class="post-description">CLI utility to make quote image generator</div>
   
-  <p>Lorem is not ipsum</p>
+  <h3 id="day3-100daystooffload">Day3 100DaystoOffload</h3>
+
+<p>I found a good <a href="https://btmills.github.io/geopattern/">geopattern generator</a>. It basically generates SVG tile from a string. The string is converted into a SHA and a color patter is determined depending on the hash value.</p>
+
+<p>I needed a copyleft alternative for backgrounds of quote images which i can post on social media. This is a very beautiful alternative.
+Imagemagick command to convert the tile into desired size resolution and embedding quote of deisred font can be achieved using this command.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>convert <span class="nt">-size</span> 1600X900  tile:geopattern_tile.png background.png
+convert background.png <span class="nt">-gravity</span> Center <span class="nt">-pointsize</span> 100 <span class="nt">-font</span> Avojaloin <span class="nt">-annotate</span> 0 <span class="s1">'“It does not matter \n how slowly you go\n as long as you do not stop.”'</span> <span class="nt">-font</span> Autography <span class="nt">-gravity</span> SouthWest <span class="nt">-annotate</span> 0 <span class="s1">'- Confucius'</span> quote_image.png
+</code></pre></div></div>
+<p>Here is the result i achieved.</p>
+
+<p><img src="/assets/test2.png" alt="" /></p>
 
 </div>
 
@@ -214,14 +226,6 @@ A personal blog about technical things I find useful. Also, random ramblings and
     
       <li>
         <h3>
-          <a href="/2021/07/21/Quote-on-geopattern-tile-using-Imagemagick.html">
-            Quote on geo-pattern tile using ImageMagick
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
           <a href="/2021/07/20/Added-a-static-photo-album.html">
             Added a static photo album
           </a>
@@ -232,6 +236,14 @@ A personal blog about technical things I find useful. Also, random ramblings and
         <h3>
           <a href="/2021/07/19/Giving-a-good-thought-on-100-Days-To-Offload.html">
             Starting with # 100 Days To Offload
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2020/06/09/lorem-ipsum-2-new.html">
+            The second lorem ipsum
           </a>
         </h3>
       </li>
