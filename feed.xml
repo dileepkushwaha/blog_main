@@ -1,90 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-07-22T06:31:20+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dileep Kushwaha</title><subtitle>A personal blog about technical things I find useful. Also, random ramblings and rants...</subtitle><entry><title type="html">Quote on geo-pattern tile using ImageMagick</title><link href="http://localhost:4000/2021/07/21/Quote-on-geopattern-tile-using-Imagemagick.html" rel="alternate" type="text/html" title="Quote on geo-pattern tile using ImageMagick" /><published>2021-07-21T22:21:00+05:30</published><updated>2021-07-21T22:21:00+05:30</updated><id>http://localhost:4000/2021/07/21/Quote-on-geopattern-tile-using-Imagemagick</id><content type="html" xml:base="http://localhost:4000/2021/07/21/Quote-on-geopattern-tile-using-Imagemagick.html">&lt;h3 id=&quot;day3-100daystooffload&quot;&gt;Day3 100DaystoOffload&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://blog.dileepkushwaha.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.dileepkushwaha.com/" rel="alternate" type="text/html" /><updated>2022-01-13T05:35:35+05:30</updated><id>https://blog.dileepkushwaha.com/feed.xml</id><title type="html">Dileep Kushwaha</title><subtitle>A personal blog about technical things I find useful. Also, random ramblings and rants...</subtitle><entry><title type="html">Quote on geo-pattern tile using ImageMagick</title><link href="https://blog.dileepkushwaha.com/2021/07/21/Quote-on-geopattern-tile-using-Imagemagick.html" rel="alternate" type="text/html" title="Quote on geo-pattern tile using ImageMagick" /><published>2021-07-21T22:21:00+05:30</published><updated>2021-07-21T22:21:00+05:30</updated><id>https://blog.dileepkushwaha.com/2021/07/21/Quote-on-geopattern-tile-using-Imagemagick</id><content type="html" xml:base="https://blog.dileepkushwaha.com/2021/07/21/Quote-on-geopattern-tile-using-Imagemagick.html"><![CDATA[<h3 id="day3-100daystooffload">Day3 100DaystoOffload</h3>
 
-&lt;p&gt;I found a good &lt;a href=&quot;https://btmills.github.io/geopattern/&quot;&gt;geopattern generator&lt;/a&gt;. It basically generates SVG tile from a string. The string is converted into a SHA and a color patter is determined depending on the hash value.&lt;/p&gt;
+<p>I found a good <a href="https://btmills.github.io/geopattern/">geopattern generator</a>. It basically generates SVG tile from a string. The string is converted into a SHA and a color patter is determined depending on the hash value.</p>
 
-&lt;p&gt;I needed a copyleft alternative for backgrounds of quote images which i can post on social media. This is a very beautiful alternative.
-Imagemagick command to convert the tile into desired size resolution and embedding quote of deisred font can be achieved using this command.&lt;/p&gt;
+<p>I needed a copyleft alternative for backgrounds of quote images which i can post on social media. This is a very beautiful alternative.
+Imagemagick command to convert the tile into desired size resolution and embedding quote of deisred font can be achieved using this command.</p>
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;convert &lt;span class=&quot;nt&quot;&gt;-size&lt;/span&gt; 1600X900  tile:geopattern_tile.png background.png
-convert background.png &lt;span class=&quot;nt&quot;&gt;-gravity&lt;/span&gt; Center &lt;span class=&quot;nt&quot;&gt;-pointsize&lt;/span&gt; 100 &lt;span class=&quot;nt&quot;&gt;-font&lt;/span&gt; Avojaloin &lt;span class=&quot;nt&quot;&gt;-annotate&lt;/span&gt; 0 &lt;span class=&quot;s1&quot;&gt;'“It does not matter \n how slowly you go\n as long as you do not stop.”'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-font&lt;/span&gt; Autography &lt;span class=&quot;nt&quot;&gt;-gravity&lt;/span&gt; SouthWest &lt;span class=&quot;nt&quot;&gt;-annotate&lt;/span&gt; 0 &lt;span class=&quot;s1&quot;&gt;'- Confucius'&lt;/span&gt; quote_image.png
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Here is the result i achieved.&lt;/p&gt;
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>convert <span class="nt">-size</span> 1600X900  tile:geopattern_tile.png background.png
+convert background.png <span class="nt">-gravity</span> Center <span class="nt">-pointsize</span> 100 <span class="nt">-font</span> Avojaloin <span class="nt">-annotate</span> 0 <span class="s1">'“It does not matter \n how slowly you go\n as long as you do not stop.”'</span> <span class="nt">-font</span> Autography <span class="nt">-gravity</span> SouthWest <span class="nt">-annotate</span> 0 <span class="s1">'- Confucius'</span> quote_image.png
+</code></pre></div></div>
+<p>Here is the result i achieved.</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/test2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="100DaystoOffload" /><summary type="html">Day3 100DaystoOffload</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/test2.png" /><media:content medium="image" url="http://localhost:4000/assets/test2.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Added a static photo album</title><link href="http://localhost:4000/2021/07/20/Added-a-static-photo-album.html" rel="alternate" type="text/html" title="Added a static photo album" /><published>2021-07-20T22:58:00+05:30</published><updated>2021-07-20T22:58:00+05:30</updated><id>http://localhost:4000/2021/07/20/Added-a-static-photo-album</id><content type="html" xml:base="http://localhost:4000/2021/07/20/Added-a-static-photo-album.html">&lt;p&gt;Yesterday, i had made some minor changes in the &lt;a href=&quot;https://dileepkushwaha.com&quot;&gt;microblog&lt;/a&gt; and &lt;a href=&quot;https://blog.dileepkushwaha.com&quot;&gt;blog&lt;/a&gt;. Today, my &lt;a href=&quot;https://photos.dileepkushwaha.com&quot;&gt;photo album&lt;/a&gt; is also went live. It is a static website too. All these three websites are now hosted on netlify.&lt;/p&gt;
+<p><img src="/assets/test2.png" alt="" /></p>]]></content><author><name></name></author><category term="100DaystoOffload" /><summary type="html"><![CDATA[CLI utility to make quote image generator]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.dileepkushwaha.com/assets/test2.png" /><media:content medium="image" url="https://blog.dileepkushwaha.com/assets/test2.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Added a static photo album</title><link href="https://blog.dileepkushwaha.com/2021/07/20/Added-a-static-photo-album.html" rel="alternate" type="text/html" title="Added a static photo album" /><published>2021-07-20T22:58:00+05:30</published><updated>2021-07-20T22:58:00+05:30</updated><id>https://blog.dileepkushwaha.com/2021/07/20/Added-a-static-photo-album</id><content type="html" xml:base="https://blog.dileepkushwaha.com/2021/07/20/Added-a-static-photo-album.html"><![CDATA[<p>Yesterday, i had made some minor changes in the <a href="https://dileepkushwaha.com">microblog</a> and <a href="https://blog.dileepkushwaha.com">blog</a>. Today, my <a href="https://photos.dileepkushwaha.com">photo album</a> is also went live. It is a static website too. All these three websites are now hosted on netlify.</p>
 
-&lt;p&gt;I struggled with google analytics not working despite the code present in the webpage. The reason was, i did ot build the jekyll site using production settings.&lt;/p&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;JEKYLL_ENV&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;production bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll build
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<p>I struggled with google analytics not working despite the code present in the webpage. The reason was, i did ot build the jekyll site using production settings.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">JEKYLL_ENV</span><span class="o">=</span>production bundle <span class="nb">exec </span>jekyll build
+</code></pre></div></div>
 
-&lt;p&gt;In order to add, watermark in the pictures, i used ImageMagick, composite commands. A bash script recursively adds the signature watermark along with any caption and compiles a static HTML site.&lt;/p&gt;
+<p>In order to add, watermark in the pictures, i used ImageMagick, composite commands. A bash script recursively adds the signature watermark along with any caption and compiles a static HTML site.</p>
 
-&lt;p&gt;I also wrote a tiny shell script to generate meme. Right now memes that require the text to be at the top and or at the bottom work with the script. Will add more features in future.&lt;/p&gt;
+<p>I also wrote a tiny shell script to generate meme. Right now memes that require the text to be at the top and or at the bottom work with the script. Will add more features in future.</p>
 
-&lt;p&gt;I’m yet to improve the blog writing experience. Currently, i draft a blog in obsidian than manually copy it into working copy of the blog.&lt;/p&gt;
+<p>I’m yet to improve the blog writing experience. Currently, i draft a blog in obsidian than manually copy it into working copy of the blog.</p>
 
-&lt;p&gt;Here is a meme i generated today&lt;/p&gt;
+<p>Here is a meme i generated today</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/meme3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="100DaysToOffload" /><summary type="html">Yesterday, i had made some minor changes in the microblog and blog. Today, my photo album is also went live. It is a static website too. All these three websites are now hosted on netlify.</summary></entry><entry><title type="html">Starting with # 100 Days To Offload</title><link href="http://localhost:4000/2021/07/19/Giving-a-good-thought-on-100-Days-To-Offload.html" rel="alternate" type="text/html" title="Starting with # 100 Days To Offload" /><published>2021-07-19T09:22:00+05:30</published><updated>2021-07-19T09:22:00+05:30</updated><id>http://localhost:4000/2021/07/19/Giving-a-good-thought-on-100-Days-To-Offload</id><content type="html" xml:base="http://localhost:4000/2021/07/19/Giving-a-good-thought-on-100-Days-To-Offload.html">&lt;p&gt;I have made some minor changes on this blog. Despite getting things ready, i did not understand what will be the best content for my blog. Its not that the topics are not clear. I had been procrastinating for the perfect blog posts. I think writing 100 days should benefit both my reading and learning skills. I will try to adapt with the content as i keep on posting.&lt;/p&gt;
+<p><img src="/assets/meme3.jpg" alt="" /></p>]]></content><author><name></name></author><category term="100DaysToOffload" /><summary type="html"><![CDATA[Day 2, 100DaysToOffload]]></summary></entry><entry><title type="html">Starting with # 100 Days To Offload</title><link href="https://blog.dileepkushwaha.com/2021/07/19/Giving-a-good-thought-on-100-Days-To-Offload.html" rel="alternate" type="text/html" title="Starting with # 100 Days To Offload" /><published>2021-07-19T09:22:00+05:30</published><updated>2021-07-19T09:22:00+05:30</updated><id>https://blog.dileepkushwaha.com/2021/07/19/Giving-a-good-thought-on-100-Days-To-Offload</id><content type="html" xml:base="https://blog.dileepkushwaha.com/2021/07/19/Giving-a-good-thought-on-100-Days-To-Offload.html"><![CDATA[<p>I have made some minor changes on this blog. Despite getting things ready, i did not understand what will be the best content for my blog. Its not that the topics are not clear. I had been procrastinating for the perfect blog posts. I think writing 100 days should benefit both my reading and learning skills. I will try to adapt with the content as i keep on posting.</p>
 
-&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/l2JedTTnDTPXSmPYs/giphy.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="100DaysToOffload" /><summary type="html">I have made some minor changes on this blog. Despite getting things ready, i did not understand what will be the best content for my blog. Its not that the topics are not clear. I had been procrastinating for the perfect blog posts. I think writing 100 days should benefit both my reading and learning skills. I will try to adapt with the content as i keep on posting.</summary></entry><entry><title type="html">The second lorem ipsum</title><link href="http://localhost:4000/2020/06/09/lorem-ipsum-2-new.html" rel="alternate" type="text/html" title="The second lorem ipsum" /><published>2020-06-09T00:00:00+05:30</published><updated>2020-06-09T00:00:00+05:30</updated><id>http://localhost:4000/2020/06/09/lorem-ipsum-2-new</id><content type="html" xml:base="http://localhost:4000/2020/06/09/lorem-ipsum-2-new.html">&lt;p&gt;Lorem is not ipsum&lt;/p&gt;</content><author><name></name></author><category term="lorem" /><category term="ipsum" /><summary type="html">Lorem is not ipsum</summary></entry><entry><title type="html">Lorem Ipsum :sunglasses:</title><link href="http://localhost:4000/2020/06/06/lorem-ipsum.html" rel="alternate" type="text/html" title="Lorem Ipsum :sunglasses:" /><published>2020-06-06T00:00:00+05:30</published><updated>2020-06-06T00:00:00+05:30</updated><id>http://localhost:4000/2020/06/06/lorem-ipsum</id><content type="html" xml:base="http://localhost:4000/2020/06/06/lorem-ipsum.html">&lt;p&gt;Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow’s nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.&lt;/p&gt;
+<p><img src="https://media.giphy.com/media/l2JedTTnDTPXSmPYs/giphy.gif" alt="" /></p>]]></content><author><name></name></author><category term="100DaysToOffload" /><summary type="html"><![CDATA[Based on Kev Quirk's idea 100daystooffload.com]]></summary></entry><entry><title type="html">The second lorem ipsum</title><link href="https://blog.dileepkushwaha.com/2020/06/09/lorem-ipsum-2-new.html" rel="alternate" type="text/html" title="The second lorem ipsum" /><published>2020-06-09T00:00:00+05:30</published><updated>2020-06-09T00:00:00+05:30</updated><id>https://blog.dileepkushwaha.com/2020/06/09/lorem-ipsum-2-new</id><content type="html" xml:base="https://blog.dileepkushwaha.com/2020/06/09/lorem-ipsum-2-new.html"><![CDATA[<p>Lorem is not ipsum</p>]]></content><author><name></name></author><category term="lorem" /><category term="ipsum" /><summary type="html"><![CDATA[no lorem but only ipsum]]></summary></entry><entry><title type="html">Lorem Ipsum :sunglasses:</title><link href="https://blog.dileepkushwaha.com/2020/06/06/lorem-ipsum.html" rel="alternate" type="text/html" title="Lorem Ipsum :sunglasses:" /><published>2020-06-06T00:00:00+05:30</published><updated>2020-06-06T00:00:00+05:30</updated><id>https://blog.dileepkushwaha.com/2020/06/06/lorem-ipsum</id><content type="html" xml:base="https://blog.dileepkushwaha.com/2020/06/06/lorem-ipsum.html"><![CDATA[<p>Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow’s nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.</p>
 
-&lt;p&gt;Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.&lt;/p&gt;
+<p>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</p>
 
-&lt;p&gt;Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow’s nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.&lt;/p&gt;</content><author><name></name></author><category term="lorem-ipsum" /><summary type="html">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow’s nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.</summary></entry><entry><title type="html">My blogging workflow - no CI :sunglasses:</title><link href="http://localhost:4000/2020/05/05/my-blogging-workflow-no-ci.html" rel="alternate" type="text/html" title="My blogging workflow - no CI :sunglasses:" /><published>2020-05-05T00:00:00+05:30</published><updated>2020-05-05T00:00:00+05:30</updated><id>http://localhost:4000/2020/05/05/my-blogging-workflow-no-ci</id><content type="html" xml:base="http://localhost:4000/2020/05/05/my-blogging-workflow-no-ci.html">&lt;p&gt;I have created a new file called “2020-05-05-my-bloggin-workflow-no-ci.md” and added some content into it. The file is opened in visual studio code along with a markdown preview extention panel on the side.&lt;/p&gt;
+<p>Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow’s nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</p>]]></content><author><name></name></author><category term="lorem-ipsum" /><summary type="html"><![CDATA[lorem ipsum pirate version]]></summary></entry><entry><title type="html">My blogging workflow - no CI :sunglasses:</title><link href="https://blog.dileepkushwaha.com/2020/05/05/my-blogging-workflow-no-ci.html" rel="alternate" type="text/html" title="My blogging workflow - no CI :sunglasses:" /><published>2020-05-05T00:00:00+05:30</published><updated>2020-05-05T00:00:00+05:30</updated><id>https://blog.dileepkushwaha.com/2020/05/05/my-blogging-workflow-no-ci</id><content type="html" xml:base="https://blog.dileepkushwaha.com/2020/05/05/my-blogging-workflow-no-ci.html"><![CDATA[<p>I have created a new file called “2020-05-05-my-bloggin-workflow-no-ci.md” and added some content into it. The file is opened in visual studio code along with a markdown preview extention panel on the side.</p>
 
-&lt;p&gt;I need to find a way to keep emoji snippest at hand. But it is of low priorty. The snippet is avaialable at 
-&lt;a href=&quot;https://gist.github.com/rxaviers/7360908&quot;&gt;Markdown Emoji Gist&lt;/a&gt;&lt;/p&gt;
+<p>I need to find a way to keep emoji snippest at hand. But it is of low priorty. The snippet is avaialable at 
+<a href="https://gist.github.com/rxaviers/7360908">Markdown Emoji Gist</a></p>
 
-&lt;p&gt;Next, i’ll be testing the blog post on mu local machine then bush the latest build onto github.&lt;/p&gt;
+<p>Next, i’ll be testing the blog post on mu local machine then bush the latest build onto github.</p>
 
-&lt;p&gt;It will be interesting to see how any CI-CD tool will change the workflow and ease my life.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="github" /><summary type="html">I have created a new file called “2020-05-05-my-bloggin-workflow-no-ci.md” and added some content into it. The file is opened in visual studio code along with a markdown preview extention panel on the side.</summary></entry><entry><title type="html">A blog post straight from my terminal :alien:</title><link href="http://localhost:4000/2020/05/03/a-blog-post-direct-from-my-terminal.html" rel="alternate" type="text/html" title="A blog post straight from my terminal :alien:" /><published>2020-05-03T00:00:00+05:30</published><updated>2020-05-03T00:00:00+05:30</updated><id>http://localhost:4000/2020/05/03/a-blog-post-direct-from-my-terminal</id><content type="html" xml:base="http://localhost:4000/2020/05/03/a-blog-post-direct-from-my-terminal.html">&lt;p&gt;Finally, i have found the perfect theme for my blog. I have long procrastinated for starting blogging sharing what i’m learning everyday. I tested many blogging platform including wp and ghost. none of them suited my needs. I tested this configuration of jekyll and github pages as it is free. Plus the workflow suits my daily routine of working with terminal.&lt;/p&gt;
+<p>It will be interesting to see how any CI-CD tool will change the workflow and ease my life.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="github" /><summary type="html"><![CDATA[tldr, jekyll + VSC + github workflow]]></summary></entry><entry><title type="html">A blog post straight from my terminal :alien:</title><link href="https://blog.dileepkushwaha.com/2020/05/03/a-blog-post-direct-from-my-terminal.html" rel="alternate" type="text/html" title="A blog post straight from my terminal :alien:" /><published>2020-05-03T00:00:00+05:30</published><updated>2020-05-03T00:00:00+05:30</updated><id>https://blog.dileepkushwaha.com/2020/05/03/a-blog-post-direct-from-my-terminal</id><content type="html" xml:base="https://blog.dileepkushwaha.com/2020/05/03/a-blog-post-direct-from-my-terminal.html"><![CDATA[<p>Finally, i have found the perfect theme for my blog. I have long procrastinated for starting blogging sharing what i’m learning everyday. I tested many blogging platform including wp and ghost. none of them suited my needs. I tested this configuration of jekyll and github pages as it is free. Plus the workflow suits my daily routine of working with terminal.</p>
 
-&lt;p&gt;Since its my first post, i’ll be testing following content type here&lt;/p&gt;
+<p>Since its my first post, i’ll be testing following content type here</p>
 
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;emojis :satisfied:&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;images &lt;img src=&quot;https://picsum.photos/200&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;audio
-    &lt;audio controls=&quot;&quot; onclick=&quot;&quot;&gt;
-         &lt;source src=&quot;/assets/Nyan Cat.wav&quot; type=&quot;audio/wav&quot; /&gt;
-   &lt;/audio&gt;
-  &lt;/li&gt;
-  &lt;li&gt;video
-    &lt;video preload=&quot;auto&quot; src=&quot;https://test-videos.co.uk/vids/jellyfish/mp4/h264/1080/Jellyfish_1080_10s_1MB.mp4&quot; type=&quot;video/mp4&quot; autoplay=&quot;&quot; controls=&quot;&quot;&gt;&lt;/video&gt;
-  &lt;/li&gt;
-  &lt;li&gt;gif
-&lt;img src=&quot;https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif&quot; alt=&quot;cat&quot; /&gt;&lt;/li&gt;
-  &lt;li&gt;url &lt;a href=&quot;https://www.google.com&quot;&gt;I’m an inline-style link&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;code snippets
-    &lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.('Tom')&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;twitter post
-    &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Pretty much&lt;/p&gt;&amp;mdash; Elon Musk (@elonmusk) &lt;a href=&quot;https://twitter.com/elonmusk/status/1256851799002120192?ref_src=twsrc%5Etfw&quot;&gt;May 3, 2020&lt;/a&gt;&lt;/blockquote&gt;
-    &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;mastodon post&lt;/p&gt;
+<ol>
+  <li>
+    <p>emojis :satisfied:</p>
+  </li>
+  <li>
+    <p>images <img src="https://picsum.photos/200" alt="image" /></p>
+  </li>
+  <li>audio
+    <audio controls="" onclick="">
+         <source src="/assets/Nyan Cat.wav" type="audio/wav" />
+   </audio>
+  </li>
+  <li>video
+    <video preload="auto" src="https://test-videos.co.uk/vids/jellyfish/mp4/h264/1080/Jellyfish_1080_10s_1MB.mp4" type="video/mp4" autoplay="" controls=""></video>
+  </li>
+  <li>gif
+<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" alt="cat" /></li>
+  <li>url <a href="https://www.google.com">I’m an inline-style link</a></li>
+  <li>code snippets
+    <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.('Tom')</span>
+</code></pre></div>    </div>
+  </li>
+  <li>twitter post
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Pretty much</p>&mdash; Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/1256851799002120192?ref_src=twsrc%5Etfw">May 3, 2020</a></blockquote>
+    <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </li>
+  <li>
+    <p>mastodon post</p>
 
-    &lt;iframe src=&quot;https://fosstodon.org/@dileepkushwaha/104609400993978563/embed&quot; class=&quot;mastodon-embed&quot; style=&quot;max-width: 100%; border: 0&quot; width=&quot;400&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;
-    &lt;script src=&quot;https://fosstodon.org/embed.js&quot; async=&quot;async&quot;&gt;&lt;/script&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Quotes
-    &lt;blockquote&gt;
-      &lt;p&gt;“This is a quote which should be followed”
+    <iframe src="https://fosstodon.org/@dileepkushwaha/104609400993978563/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe>
+    <script src="https://fosstodon.org/embed.js" async="async"></script>
+  </li>
+  <li>Quotes
+    <blockquote>
+      <p>“This is a quote which should be followed”
 Also I think this sentence is quite long.
-more quote text to come&lt;/p&gt;
-      &lt;ul&gt;
-        &lt;li&gt;Chris Wayne&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="welcome" /><category term="introduction" /><category term="jekyll" /><category term="github" /><summary type="html">Finally, i have found the perfect theme for my blog. I have long procrastinated for starting blogging sharing what i’m learning everyday. I tested many blogging platform including wp and ghost. none of them suited my needs. I tested this configuration of jekyll and github pages as it is free. Plus the workflow suits my daily routine of working with terminal.</summary></entry></feed>
+more quote text to come</p>
+      <ul>
+        <li>Chris Wayne</li>
+      </ul>
+    </blockquote>
+  </li>
+</ol>]]></content><author><name></name></author><category term="welcome" /><category term="introduction" /><category term="jekyll" /><category term="github" /><summary type="html"><![CDATA[tldr, jekyll + jekyll-dash + github = blog posting productivity]]></summary></entry></feed>
